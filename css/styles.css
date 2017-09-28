@@ -1,0 +1,207 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Didact Gothic', sans-serif;   
+}
+
+.btn {
+	transition: all 0.3s ease-in-out;
+}
+
+@media(max-width: 768px) {
+	#header {
+		text-align: center;
+	}
+	#header img {
+		margin:20%  auto 0;
+	}
+
+	#who {
+		text-align: center;
+	}
+
+	#who img {
+		margin-top: 15%;
+	}
+	#who hr {
+		margin:8% auto;
+	}
+
+	#footer {
+		text-align: center;
+	}
+}
+
+
+.navbar {
+  background-color:rgba(21, 31, 33, 0.5) !important;
+  border-bottom: 1px solid #dedede;
+  font-family: 'Didact Gothic', sans-serif;   
+}
+
+.navbar .nav .nav-item .nav-link {
+  color: #d1d1d1;
+}
+
+.navbar .nav .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+    color:white;
+}
+
+/*HEADER*/
+
+#header {
+	background: url('../img/landing-page.jpg') center center no-repeat;
+	background-size: cover;
+	height: 100%;
+	color: black;
+	display: flex;
+	align-items: center;
+}
+#header img {
+	padding: 0 0 20px;
+	width:75%;
+	align-content: center;
+}
+
+#header .header-right {
+	background-color: rgba(0,0,0,0.5);
+	padding: 30px;
+	border-radius: 10px; 
+}
+
+#header .fa {
+	margin: 5% 0;
+}
+
+#header a .fa {
+	color: #fff;
+
+}
+
+#header a .fa:hover {
+	color: #ccc;
+	
+}
+
+/*WHO ABOUT PAGE*/
+
+#who {
+	padding: 5rem 0;
+	background-color: #f6f6f6;
+}
+
+#who .btn-who {
+	background-color: #c69a14;
+	color: #fff;
+	width: 50%;
+}
+
+#who .btn-who:hover {
+	background-color: transparent;
+	border: 1px solid #be2835;
+	color: #be2835;
+}
+
+/*Services PAGE*/
+
+#work {
+	padding: 5rem 0;
+}
+
+#work img{
+	width:100%;
+    height: auto;
+	
+}
+
+}
+#work .work-img {
+	position: relative;
+	width:100%;
+	max-height: 
+	}
+
+#work .work-img .img-overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/eye.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 0;
+	z-index: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+#work .work-img .img-overlay:hover {
+	opacity: 1;
+	z-index: 1;
+}
+
+/*WHY PAGE*/
+
+#why {
+	padding: 5rem 0;
+	background-color: #f6f6f6;
+}
+
+#why .fa {
+	color: #c69a14;
+	padding: 15px 0;
+}
+
+/*CUSTOMER PAGE*/
+
+	#customers {
+		padding: 5rem 0;
+		overflow: hidden;
+	}
+
+#customers .carousel-indicators li {
+	background-color: #c69a14;
+}
+#customers .carousel-inner {
+	margin-bottom: 50px;
+}
+
+#customers .carousel-indicators {
+	margin-bottom: -50px;
+}
+
+/*END CUSTOMER PAGE*/
+
+
+/*CONTACT PAGE*/
+#contact {
+	padding:5rem 0;
+}
+#contact .contact-info ul {
+text-decoration: none;
+
+}
+/*END CONTACT PAGE*/
+
+/*FOOTER*/
+#footer {
+	padding:2rem 0;
+	background-color: #484848;
+	color: white;
+}
+
+#footer a {
+	color: white;
+}
+
+#footer .fa {
+	padding: 0 5px;
+}
+
+
+/*END FOOTER*/
