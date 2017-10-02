@@ -44,7 +44,7 @@ body {
 }
 
 .navbar .nav .nav-item .nav-link:hover {
-  color: #fff;
+  color: blue;
 }
 
 .navbar-toggler {
@@ -78,7 +78,7 @@ body {
 }
 
 #header a .fa {
-	color: #fff;
+	color: blue;
 
 }
 
