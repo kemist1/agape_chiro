@@ -1,7 +1,7 @@
 html,
 body {
 	height: 100%;
-	font-family: 'Didact Gothic', sans-serif;   
+	font-family: 'Spectral SC', serif;   
 }
 
 .btn {
@@ -35,31 +35,32 @@ body {
 
 .navbar {
   background-color:rgba(21, 31, 33, 0.5) !important;
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid white;
   font-family: 'Didact Gothic', sans-serif;   
 }
 
 .navbar .nav .nav-item .nav-link {
-  color: #d1d1d1;
+  color: white;
 }
 
 .navbar .nav .nav-item .nav-link:hover {
-  color: blue;
+  color: grey;
 }
 
 .navbar-toggler {
-    color:white;
+    color: white;
 }
 
 /*HEADER*/
 
 #header {
-	background: url('../img/landing-page.jpg') center center no-repeat;
+	background: url('../img/charnel_house_header.jpg') center center no-repeat;
 	background-size: cover;
 	height: 100%;
-	color: black;
+	color: white;
 	display: flex;
 	align-items: center;
+	text-align: center;
 }
 #header img {
 	padding: 0 0 20px;
@@ -73,17 +74,39 @@ body {
 	border-radius: 10px; 
 }
 
+#header h2 {
+	color: #A09492;
+
+}
+
+#header p {
+	color: #A09492;
+}
+
+#header .btn .btn-outline-primary {
+	color: #A09492;
+}
+#header .btn a {
+	color: #A09492;
+}
+
+#header .btn a:hover {
+	color: white;
+	background-color: #A09492;
+
+}
+
 #header .fa {
 	margin: 5% 0;
 }
 
 #header a .fa {
-	color: blue;
+	color: white;
 
 }
 
 #header a .fa:hover {
-	color: #ccc;
+	color: white;
 	
 }
 
@@ -95,7 +118,7 @@ body {
 }
 
 #who .btn-who {
-	background-color: #c69a14;
+	background-color: white;
 	color: #fff;
 	width: 50%;
 }
@@ -145,7 +168,16 @@ body {
 	z-index: 1;
 }
 
+/*FORM PAGE*/
+
+#form {
+	padding: 5rem 0;
+	background-color: #f6f6f6;
+}
+
 /*WHY PAGE*/
+
+
 
 #why {
 	padding: 5rem 0;
@@ -184,9 +216,20 @@ body {
 }
 #contact .contact-info ul {
 text-decoration: none;
+}
 
+#contact .btn a:hover {
+	color: white;
 }
 /*END CONTACT PAGE*/
+
+/*MAP PAGE*/
+
+#map {
+	margin-bottom: 35px;
+}
+
+/*MAP PAGE*/
 
 /*FOOTER*/
 #footer {
